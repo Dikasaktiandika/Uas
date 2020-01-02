@@ -77,7 +77,7 @@ class ActivityLogin: AppCompatActivity() {
                 startActivity(Intent(this, MainActivity::class.java))
                 finish()
             }else{
-                Toast.makeText(baseContext, "Email belum Di Verifikasi silahkan cek Iael",
+                Toast.makeText(baseContext, "Email belum Di Verifikasi silahkan cek Email ",
                     Toast.LENGTH_SHORT
                 ).show()
             }
