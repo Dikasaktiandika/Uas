@@ -24,12 +24,12 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/login"
+        android:id="@+id/Resgiter"
         android:layout_width="73dp"
         android:layout_height="38dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="10dp"
         android:gravity="top"
         android:lineSpacingExtra="9sp"
@@ -51,15 +51,15 @@
         app:layout_constraintHorizontal_bias="0.558"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/lg" />
 
     <View
         android:id="@+id/group_24"
         android:layout_width="321dp"
-        android:layout_height="215dp"
+        android:layout_height="270dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginBottom="136dp"
+        android:layout_marginBottom="16dp"
         android:background="#FFFFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -100,15 +100,29 @@
         android:layout_height="45dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="20dp"
         android:background="#71ADDD"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="#FEFCFF"
+        app:layout_constraintEnd_toEndOf="@+id/group_24"
+        app:layout_constraintStart_toStartOf="@+id/group_24"
+        app:layout_constraintTop_toBottomOf="@+id/form_passwo" />
 
-        android:text="LOGIN"
+    <Button
+        android:id="@+id/tombol_register"
+        android:layout_width="281dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:background="#71ADDD"
+        android:gravity="center"
+        android:text="@string/register"
         android:textColor="#FEFCFF"
         app:layout_constraintBottom_toBottomOf="@+id/group_24"
         app:layout_constraintEnd_toEndOf="@+id/group_24"
         app:layout_constraintStart_toStartOf="@+id/group_24"
-        app:layout_constraintTop_toBottomOf="@+id/form_passwo"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/tombol_logi" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
