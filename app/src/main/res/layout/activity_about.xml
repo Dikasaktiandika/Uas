@@ -2,15 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/home"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@drawable/home"
     android:orientation="vertical">
 
     <View
         android:id="@+id/rectangle_6"
-        android:layout_width="322dp"
-        android:layout_height="181dp"
+        android:layout_width="859px"
+        android:layout_height="400px"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="44dp"
@@ -23,13 +23,14 @@
         android:orientation="horizontal">
 
         <Button
-            android:layout_width="118dp"
-            android:layout_height="94dp"
+            android:layout_width="315px"
+            android:layout_height="235px"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_marginLeft="60dp"
+            android:layout_marginLeft="160px"
+            android:layout_marginTop="187px"
             android:background="@drawable/tk"
-            android:layout_marginTop="70dp">
+            >
 
         </Button>
 

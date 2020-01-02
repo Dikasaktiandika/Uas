@@ -67,8 +67,8 @@ class ActivitySmp : AppCompatActivity() {
 
     private fun tampilSpiner() {
 
-        val languages = resources.getStringArray(R.array.Kelas_SMA)
-        val spinner = findViewById<Spinner>(R.id.spiner)
+        val languages = resources.getStringArray(R.array.Kelas_SMP)
+        val spinner = findViewById<Spinner>(R.id.spinersmp)
         if (spinner != null) {
             val adapter = ArrayAdapter(this,
                 android.R.layout.simple_spinner_item, languages)

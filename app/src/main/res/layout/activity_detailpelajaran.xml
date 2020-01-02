@@ -7,24 +7,46 @@
     android:background="@drawable/home"
     android:orientation="vertical">
 
-    <View
-        android:id="@+id/rectangle_6"
+    <ImageView
+        android:id="@+id/image_detail_pelajaran"
         android:layout_width="322dp"
         android:layout_height="181dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="44dp"
-        android:layout_marginTop="77dp"
-        android:background="@drawable/image1">
-    </View>
+        android:layout_marginTop="77dp">
+    </ImageView>
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginLeft="55dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginRight="55dp"
-        android:layout_marginBottom="30dp"
-        android:background="@color/white" />
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="50px"
+        android:layout_marginBottom="200px"
+        android:layout_marginRight="50px">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_detail_Pelajaran"
+                android:layout_width="match_parent"
+                android:layout_height="700px">
+
+            </TextView>
+            <Button
+                android:id="@+id/btn_scroll_View"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="TEST"
+                android:layout_height="100px">
+
+            </Button>
+        </LinearLayout>
+
+    </ScrollView>
+
 
 </LinearLayout>
